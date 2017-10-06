@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "org.orolegalvirtual"
         versionCode = "2010"
-        version   = "2.9">
+        version   = "7.0">
     <name>OroLegal Virtual</name>
 
     <description>
