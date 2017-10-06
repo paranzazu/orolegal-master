@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "org.orolegalvirtual"
         versionCode = "2010"
-        version   = "7.0">
+        version   = "2.9">
     <name>OroLegal Virtual</name>
 
     <description>
@@ -33,7 +33,7 @@
 
     <allow-intent href="*" />
 
-    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="phonegap-version" value="cli-6.0.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
