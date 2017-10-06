@@ -1,0 +1,27 @@
+{
+    "authenticating": "Autenticando",
+    "cancel": "Cancelar",
+    "connect": "Conectar",
+    "connecttomoodle": "App OroLegal Virtual",
+    "credentials": "Credenciales",
+    "help": "Ayuda",
+    "helpmelogin": "<p>Esta Aplicaci�n est� basada en Moodle Mobile.</p><p>Solo debe tocar el bot�n Continuar y cuando se conecte al sitio, digitar su Usuario y Contrase�a.</p><p>Cualquier inquietud puede contactarnos al telefono: <b>444444</b> o toque aqu� para ir a la Mesa de Ayuda.</p>",
+    "invalidaccount": "Por favor, verifique sus datos de acceso, o consulte con el administrador para revisar la configuración del sitio.",
+    "invalidmoodleversion": "Versión de Moodle inválida. La versión mínima requerida es:",
+    "invalidsite": "La URL del sitio es inválida.",
+    "login": "Entrar",
+    "logininsiterequired": "Para autentificarse en el sitio se ha de abrir una ventana de navegador.",
+    "mobileservicesnotenabled": "El acceso móvil no está habilitado para este sitio, por favor, contacte con su administrador si piensa que debería estar habilitado.",
+    "password": "Contraseña",
+    "passwordrequired": "Contraseña obligatoria",
+    "reconnect": "Reconectar",
+    "siteaddress": "Dirección del sitio",
+    "siteinmaintenance": "Su sitio está en modo mantenimiento",
+    "siteurl": "URL del sitio",
+    "siteurlrequired": "La URL del sitio es obligatoria, por ejemplo <i>http://www.yourmoodlesite.es o  https://www.yourmoodlesite.org</i>",
+    "username": "Nombre de usuario",
+    "usernamerequired": "Nombre de usuario obligatorio",
+    "webservicesnotenabled": "Los Servicios Web no están habilitados en su sitio, por favor, contacte con su administrador de Moodle si piensa que deberían estarlo."
+}
+
+

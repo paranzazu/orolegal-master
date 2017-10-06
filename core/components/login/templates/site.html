@@ -1,0 +1,23 @@
+<ion-view view-title="{{ 'mm.login.connecttomoodle' | translate }}">
+    <ion-nav-buttons side="secondary">
+        <button class="button button-icon ion-ios-help-outline" ng-click="showHelp()" aria-label="{{ 'mm.core.help' | translate }}"></button>
+    </ion-nav-buttons>
+    <ion-content mm-state-class style='background-image: url("http://orolegalvirtual.portalaprende.co/LMS/pluginfile.php/1/theme_kallos31/background/1484242463/banner4.png") !important;'>
+        <br>
+        <br>
+        <label></label> 
+        <div class="list" ng-init="siteurl = 'http://orolegalvirtual.portalaprende.co/LMS/'">
+            <div class="item item-text-wrap" style='background-size: contain;background-repeat: no-repeat;background-color: transparent !important;background-image: url("http://orolegalvirtual.portalaprende.co/LMS/pluginfile.php/1/theme_kallos31/logo/1484242463/logo-login%20%281%29.png") !important'><!--{{ 'mm.login.newsitedescription' | translate }}--></div>
+            <form>
+                <!--<label class="item item-input item-stacked-label">
+                    <span class="input-label">{{ 'mm.login.siteaddress' | translate }}</span>-->
+                <!-- <input type="url" placeholder="moodle.org" ng-model="siteurl" mm-no-input-validation ng-change="validate(siteurl)" mm-auto-focus >-->
+                <input type="hidden" value="{{siteurl}}" ng-model="siteurl" mm-no-input-validation ng-change="validate(siteurl)">
+                <!--</label>-->
+                <div class="item" style="background-color: rgba(0,0,0,0.5) !important">
+                    <button style="background: rgba(255,255,255,0.8)" class="button button-block" ng-click="connect(siteurl)">{{ 'mm.login.connect' | translate }}</button>
+                </div>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>
